@@ -1,0 +1,3 @@
+[submodule "Todos.Web/TodoList"]
+	path = Todos.Web/TodoList
+	url = https://github.com/YasharHeydari/TodoList.git
