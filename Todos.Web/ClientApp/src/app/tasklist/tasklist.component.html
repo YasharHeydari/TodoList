@@ -1,0 +1,46 @@
+<p *ngIf="!todoTasks"> Loading...</p>
+<div class="table-responsive">
+    <table class="table table-striped" *ngIf="todoTasks">
+        <thead>
+            <th>Task Name</th>
+            <th>Task Group</th>
+            <th>Task Status</th>
+            <th>Task Due Date</th>
+            <!-- <th>Task Creation Date</th> -->
+            <th>Operations</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of todoTasks" [ngSwitch]="item.taskGroup">
+                <td>{{item.taskName}}</td>
+                <td [ngSwitch]="item.taskGroup">
+                    <button class="btn btn-outline-danger" disabled *ngSwitchCase="0">Urgent and
+                        Important</button>
+                    <button class="btn btn-outline-warning" disabled *ngSwitchCase="1">Urgent and Not
+                        Important</button>
+                    <button class="btn btn-outline-primary" disabled *ngSwitchCase="2">Not Urgent But
+                        Important</button>
+                    <button class="btn btn-outline-dark" disabled *ngSwitchCase="3">Forget About
+                        it!!</button>
+                </td>
+                <td>
+                    <mat-form-field>
+                      <mat-label>{{stateKeys[item.taskStatus]}}</mat-label>
+                      <mat-select [(value)] = "item.newStatus">
+                        <mat-option *ngFor="let state of stateKeys;index as i" [value]="i">
+                          {{state}}
+                        </mat-option>
+                      </mat-select>
+                    </mat-form-field>
+
+                </td>
+                <td>{{item.dueDate| date:'shortDate'}}</td>
+                <!-- <td>{{item.registerDate}}</td> -->
+                <td>
+                    <button class="btn btn-warning" routerLink="/AddEdit/{{item.taskId}}">Edit</button> |
+                    <button class="btn btn-danger" (click)="OnBtnDelete(item.taskId)">Delete</button> |
+                    <button class="btn btn-success" (click)="OnBtnSave(item.taskId , item)">Save!</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

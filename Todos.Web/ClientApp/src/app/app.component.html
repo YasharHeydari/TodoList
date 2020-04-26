@@ -1,0 +1,22 @@
+<div class="container-fluid" id="NavigationBar">
+  <app-nav-bar></app-nav-bar>
+
+  <div class="row container-fluid">
+    <div class="col-2 bg-dark">
+      <ul class="nav flex-column">
+        <li class="navitem">
+          <a routerLink="/AllTasks">All Tasks -></a>
+        </li>
+        <li class="navitem">
+          <a routerLink="/MonthTasks">Next Month Tasks -></a>
+        </li>
+        <li class="navitem">
+          <a routerLink="/UrgentTasks">Urgent Tasks -></a>
+        </li>
+      </ul>
+    </div>
+    <div calss="col-10">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

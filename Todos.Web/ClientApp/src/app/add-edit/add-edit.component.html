@@ -1,0 +1,49 @@
+<div class="container">
+    <form [formGroup]="registerForm" (ngSubmit)="Submit()">
+        <div *ngIf="submitted && TaskName.invalid" class="alert alert-danger">
+            <div *ngIf="TaskName.errors.required">
+                Task Name is Required
+            </div>
+        </div>
+        <div *ngIf="submitted && TaskStatus.invalid" class="alert alert-danger">
+            <div *ngIf="TaskStatus.errors.required">
+                Please Specify Task Status
+            </div>
+        </div>
+        <div *ngIf="submitted && TaskGroup.invalid" class="alert alert-danger">
+            <div *ngIf="TaskGroup.errors.required">
+                Please Specify Task Group
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="TaskName">Task Name</label>
+            <input type="text" class="form-control" id="TaskName" placeholder="Task Description" required formControlName="Name"> 
+        </div>
+        <div class="form-group">
+            <label for="TaskGroupType">Task Group</label>
+            <select id="TaskGroupType" class="form-control" name="TaskGroup" formControlName="TaskGroup" required>
+
+                <option *ngFor="let x of taskGroupKeys; index as i " [value]="i" [label]="taskGroups[x]">
+                </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Task Status">Initial Status</label>
+            <select id="Task Status" class="form-control" name="TaskStatus" formControlName="TaskStatus">
+                <option *ngFor="let x of taskStatusKeys; index as i " [value]="i" [label]="taskStates[x]">
+                </option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="DueDate">Due Date</label>
+            <input id="DueDate" class="form-control" type="date" name="DueDate"  formControlName="DueDate">
+        </div>
+        <div class="from-group col-auto">
+            <button type="submit" class="btn btn-primary mb-2">Submit </button>
+        </div>
+    </form>
+    <p>
+        <a routerLink="/Tasks"> Back to Tasks List</a>
+    </p>
+</div>
