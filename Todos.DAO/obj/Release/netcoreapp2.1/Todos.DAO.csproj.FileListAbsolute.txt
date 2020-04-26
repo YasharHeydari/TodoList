@@ -1,0 +1,12 @@
+D:\Git\Todos\Todos.DAO\bin\Release\netcoreapp2.1\Todos.DAO.deps.json
+D:\Git\Todos\Todos.DAO\bin\Release\netcoreapp2.1\Todos.DAO.dll
+D:\Git\Todos\Todos.DAO\bin\Release\netcoreapp2.1\Todos.DAO.pdb
+D:\Git\Todos\Todos.DAO\bin\Release\netcoreapp2.1\todos.DomainModel.dll
+D:\Git\Todos\Todos.DAO\bin\Release\netcoreapp2.1\todos.DomainModel.pdb
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.csprojAssemblyReference.cache
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.csproj.CoreCompileInputs.cache
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.AssemblyInfoInputs.cache
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.AssemblyInfo.cs
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.csproj.CopyComplete
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.dll
+D:\Git\Todos\Todos.DAO\obj\Release\netcoreapp2.1\Todos.DAO.pdb

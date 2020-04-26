@@ -1,0 +1,9 @@
+D:\Git\Todos\todos.DomainModel\bin\Release\netcoreapp2.1\todos.DomainModel.deps.json
+D:\Git\Todos\todos.DomainModel\bin\Release\netcoreapp2.1\todos.DomainModel.dll
+D:\Git\Todos\todos.DomainModel\bin\Release\netcoreapp2.1\todos.DomainModel.pdb
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.csprojAssemblyReference.cache
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.csproj.CoreCompileInputs.cache
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.AssemblyInfoInputs.cache
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.AssemblyInfo.cs
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.dll
+D:\Git\Todos\todos.DomainModel\obj\Release\netcoreapp2.1\todos.DomainModel.pdb

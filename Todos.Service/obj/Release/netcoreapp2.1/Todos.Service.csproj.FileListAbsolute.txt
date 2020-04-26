@@ -1,0 +1,14 @@
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\Todos.Service.deps.json
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\Todos.Service.dll
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\Todos.Service.pdb
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\Todos.DAO.dll
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\todos.DomainModel.dll
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\Todos.DAO.pdb
+D:\Git\Todos\Todos.Service\bin\Release\netcoreapp2.1\todos.DomainModel.pdb
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.csprojAssemblyReference.cache
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.csproj.CoreCompileInputs.cache
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.AssemblyInfoInputs.cache
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.AssemblyInfo.cs
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.csproj.CopyComplete
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.dll
+D:\Git\Todos\Todos.Service\obj\Release\netcoreapp2.1\Todos.Service.pdb
